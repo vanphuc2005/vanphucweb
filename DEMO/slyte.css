@@ -1,0 +1,25 @@
+body {
+    font-family: 'Roboto';
+}
+/** Top Bar **/
+.top-bar{
+    background: #085690;
+}
+.navbar-nav .nav-link {
+    color: #085690;
+}
+.custom-dropdown {
+    position: absolute;
+    z-index: 1050; /* Đảm bảo menu thả xuống nằm trên các thành phần khác */
+    left: 0;
+    top: 100%;
+    display: none;
+}
+/* FOOTER */
+footer{
+    background: #085690;
+}
+footer .content-footer{
+    font-size: 20px;
+    margin: 0 0 25px;
+}
